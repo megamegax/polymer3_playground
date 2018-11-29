@@ -15,7 +15,7 @@ $_documentContainer.innerHTML = `<dom-module id="shared-styles">
   <template>
     <style>
       .card {
-        margin: 24px;
+        margin: 4px;
         padding: 16px;
         color: #757575;
         border-radius: 5px;
@@ -39,6 +39,9 @@ $_documentContainer.innerHTML = `<dom-module id="shared-styles">
         margin: 16px 0;
         color: #212121;
         font-size: 22px;
+      }
+      .flex-horizontal{
+        @apply --layout-horizontal
       }
     </style>
   </template>

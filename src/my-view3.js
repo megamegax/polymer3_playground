@@ -8,7 +8,8 @@
  * subject to an additional IP rights grant found at http://polymer.github.io/PATENTS.txt
  */
 
-import { PolymerElement, html } from '@polymer/polymer/polymer-element.js';
+import {PolymerElement, html} from '@polymer/polymer/polymer-element.js';
+import '@polymer/paper-button/paper-button.js';
 import './shared-styles.js';
 
 class MyView3 extends PolymerElement {
@@ -23,11 +24,17 @@ class MyView3 extends PolymerElement {
       </style>
 
       <div class="card">
-        <div class="circle">3</div>
-        <h1>View Three</h1>
-        <p>Modus commodo minimum eum te, vero utinam assueverit per eu.</p>
-        <p>Ea duis bonorum nec, falli paulo aliquid ei eum.Has at minim mucius aliquam, est id tempor laoreet.Pro saepe pertinax ei, ad pri animal labores suscipiantur.</p>
-      </div>
+      <a href="https://www.polymer-project.org">
+        <paper-button>Polymer website</paper-button>
+      </a>
+      <a href="https://www.webcomponents.org/collection/PolymerElements/paper-elements">
+      <paper-button>Paper Elements</paper-button>
+      </a>
+           <a href="https://www.webcomponents.org/collection/PolymerElements/iron-elements">
+      <paper-button>Iron Elements</paper-button>
+      </a>
+      
+       </div>
     `;
   }
 }
